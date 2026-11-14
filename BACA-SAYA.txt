@@ -1,0 +1,42 @@
+LAMAN WEB SAFUAN RAHIM ENTERPRISE
+=================================
+
+Struktur
+--------
+index.html              Laman utama (servis, pesanan terkini, pelanggan)
+profil-syarikat.html    Pengenalan, objektif, visi, misi, carta organisasi, anugerah
+katalog.html            30 item katalog dengan tapisan kategori + butang sebut harga WhatsApp
+projek.html             Galeri 8 projek (klik untuk besarkan) + jadual 60 pesanan (tapis tahun / carian)
+maklumat-syarikat.html  Butiran SSM, MOF, Bumiputera, CIDB, SPKK, STB, PERKESO
+hubungi.html            Borang sebut harga, WhatsApp, Google Maps
+terima-kasih.html       Halaman selepas borang dihantar
+sitemap.xml, robots.txt Untuk SEO
+
+SEBELUM GO-LIVE (wajib)
+-----------------------
+1. DOMAIN: Semua SEO dan sitemap sudah ditetapkan ke https://sre.com.my
+   Pastikan SSL (https) aktif, dan www.sre.com.my di-redirect ke sre.com.my
+   (biasanya boleh set di cPanel > Domains / Redirects).
+
+2. GOOGLE ANALYTICS: Buka assets/js/analytics.js, tukar G-XXXXXXXXXX kepada
+   Measurement ID anda. Klik WhatsApp akan direkod sebagai event "whatsapp_click".
+
+3. BORANG: Borang guna FormSubmit (percuma, tiada akaun). Kali pertama borang
+   dihantar, FormSubmit akan e-mel pautan pengesahan ke
+   safuanrahimenterprise@gmail.com. Klik pautan itu sekali, selepas itu semua
+   permintaan masuk terus ke e-mel. Pelawat juga boleh hantar borang melalui WhatsApp.
+
+4. GOOGLE SEARCH CONSOLE: Daftar domain, kemudian hantar sitemap.xml.
+
+5. GOOGLE BUSINESS PROFILE: Daftar alamat Medan MARA supaya muncul di Google Maps.
+
+Hosting
+-------
+Laman statik (HTML/CSS/JS sahaja). Boleh di-upload ke mana-mana hosting:
+cPanel (public_html), Netlify, Vercel, Cloudflare Pages atau GitHub Pages.
+
+Logo klien
+----------
+Letak logo rasmi dalam assets/img/klien/ dengan nama fail berikut (png/svg/jpg):
+tnb, tm, kuptm, mara, jkr, tekun, perkeso, ukm, unikl, ipb, yapeim, kdn
+Contoh: assets/img/klien/tnb.png. Selagi logo belum ada, singkatan nama dipaparkan.

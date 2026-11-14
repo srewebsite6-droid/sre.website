@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /terima-kasih.html
+
+Sitemap: https://sre.com.my/sitemap.xml
